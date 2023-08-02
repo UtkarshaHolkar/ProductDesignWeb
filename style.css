@@ -86,7 +86,7 @@ html,body{
     text-transform: uppercase;
 }
 
-#iconset{
+#herofooter #iconset{
     display: flex;
     gap: 5px;
 }
@@ -133,7 +133,7 @@ html,body{
 
 .elem img{
     height: 140%;
-    /* opacity: 0; */
+    opacity: 0;
     display: none;
     z-index: 999;
     position: absolute;
@@ -145,7 +145,7 @@ html,body{
     align-items: center;
     gap: 50px;
     color:#fff;
-    padding: 10vw 10vw;
+    padding: 20vw 20vw;
     padding-left: 40vw;
     width: 100%;
      background-color: black;
@@ -199,12 +199,26 @@ html,body{
 
 #footer{
     display: flex;
+    background-color: black;
+    color: #fff;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 30px;
+    padding: 40px 30px;
 }
 
 #footerleft{
     display: flex;
     gap:20px;
+}
+
+#footerright{
+    display: flex;
+    gap: 30px;
+}
+#footer a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: none;
 }
